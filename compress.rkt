@@ -7,7 +7,7 @@
 (define (winzip)
   (zip "release\\windist.zip" "dist/windows"))
 (define (tuxgz)
-  (tar-gzip "release/tuxdust.tar.gz" "dist/linux"))
+  (tar-gzip "release/tuxdist.tar.gz" "dist/linux"))
 (cond [(not (directory-exists? "release")) (make-directory "release")]
       [else (delifexist "release\\windist.zip")
 	    (delifexist "release/tuxdist.tar.gz")])
