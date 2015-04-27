@@ -1,3 +1,7 @@
 dist/*
 Racket/*
 release/*
+*.bak
+*.1
+src/*.bak
+src/*.1
