@@ -1,18 +1,17 @@
 #!/usr/bin/env bash
 base=$(dirname $0)
-file="$base/main"
+file="$base/src/main"
 cd $base
 rm -rf "$base/dist/linux"
-if [ -f $file ]; then
-	rm $file
-fi
+	rm $file 
 echo "Compiling..."
-raco exe main.rkt
+raco exe "src/main.rkt"
 echo "Creating distro..."
+mkdir -p "$base/dist/linux"
 raco distribute "$base/dist/linux" $file
-rm main
 echo "Compressing package..."
-racket zipper.rkt
+racket "$base/zipper.rkt"
+rm -rf "src/main"
 cd "$base/dist/linux/bin"
 echo "Done. Running program."
 ./main
