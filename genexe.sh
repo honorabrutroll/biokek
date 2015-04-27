@@ -11,6 +11,8 @@ raco exe main.rkt
 echo "Creating distro..."
 raco distribute "$base/dist/linux" $file
 rm main
+echo "Compressing package..."
+racket zipper.rkt
 cd "$base/dist/linux/bin"
 echo "Done. Running program."
 ./main
