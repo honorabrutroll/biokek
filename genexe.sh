@@ -3,6 +3,8 @@ base=$(dirname $0)
 file="$base/src/main"
 cd $base
 rm -rf "$base/dist/linux"
+echo "Running Tests..."
+racket "$base/tests.rkt"
 echo "Compiling..."
 raco exe "src/main.rkt"
 echo "Creating distro..."

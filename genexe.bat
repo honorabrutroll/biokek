@@ -9,6 +9,8 @@ SET FileToDelete="%~dp0src\main.exe%"
 IF EXIST "%~dp0dist\windows" rmdir /s /q "%~dp0dist\windows"
 @REM If the file wasn't deleted for some reason, stop and error
 IF EXIST "%~dp0dist\windows" exit 1
+ECHO "Running Tests..."
+"%racketdir%\Racket.exe" "%~dp0src\test.rkt"
 ECHO "Compiling..."
 "%racketdir%\raco.exe" exe "%~dp0src\main.rkt"
 ECHO "Creating distro..."
