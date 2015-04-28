@@ -11,6 +11,7 @@ IF EXIST "%~dp0dist\windows" rmdir /s /q "%~dp0dist\windows"
 IF EXIST "%~dp0dist\windows" exit 1
 ECHO "Running Tests..."
 "%racketdir%\Racket.exe" "%~dp0src\test.rkt"
+IF NOT ERRORLEVEL 0 GOTO testfail
 ECHO "Compiling..."
 "%racketdir%\raco.exe" exe "%~dp0src\main.rkt"
 ECHO "Creating distro..."
@@ -23,3 +24,7 @@ echo "Done. Running program."
 cd "%~dp0dist\windows"
 "%~dp0dist\windows\main.exe"
 cd ../..
+
+:testfail
+ECHO "Tests Failed."
+exit /b 255

@@ -5,6 +5,11 @@ cd $base
 rm -rf "$base/dist/linux"
 echo "Running Tests..."
 racket "$base/tests.rkt"
+teststat=$?
+if [ -ne $? 0 ];then
+	echo "Tests Failed."
+	exit 255
+fi
 echo "Compiling..."
 raco exe "src/main.rkt"
 echo "Creating distro..."
