@@ -108,9 +108,9 @@ def basefile(player,ip):
 
 ;info i, topic t -> info
 (define (nullify-paragraph i t)
-  (cond [(empty? i) (list)]
-        [(equal? (first i) t) (cons (make-topic "" (topic-questions t)) (nullify-paragraph (rest i) t))]
-        [else (cons t (nullify-paragraph (rest i) t))]))
+ (cond [(empty? i) (list)]
+       [(equal? (first i) t) (cons (make-topic "" (topic-questions (first i))) (nullify-paragraph (rest i) t))]
+       [else (cons (first i) (nullify-paragraph (rest i) t))]))
 
 ;model m -> bool
 (define (next-question-new-topic? m)
@@ -247,16 +247,16 @@ def makeansw(corans,answl):
     base = '(list '
     cans = ''
     answlist = jumble(answl)
-    xc = 100
+    xc = 200
     yc = 100
     for x in answlist:
         curans = '(make-answer "' + x + '" (make-posn ' + str(xc) + ' ' + str(yc) + ')) '
         base += curans
         if x == corans:
             cans = curans
-        if xc >= 300:
+        if xc >= 400:
             yc += 50
-        xc = (xc % 300) + 100
+        xc = (xc % 400) + 200
 
 
     base += (') ' + cans)

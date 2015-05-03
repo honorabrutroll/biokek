@@ -22,7 +22,7 @@ echo "Compiling Server..."
 raco exe "src/server.rkt"
 echo "Creating distro..."
 mkdir -p "$base/dist/linux"
-raco distribute "$base/dist/linux" jeopardyp1 jeopardyp2 server
+raco distribute "$base/dist/linux" src/jeopardyp1 src/jeopardyp2 src/server
 echo "Compressing package..."
 racket "$base/compress.rkt"
 rm -rf "src/jeopardyp1"

@@ -10,6 +10,7 @@ IF EXIST "%~dp0dist\windows" exit 1
 REM ECHO "Running Tests..."
 REM "%racketdir%\Racket.exe" "%~dp0src\tests.rkt"
 REM IF NOT ERRORLEVEL 0 GOTO testfail
+ECHO "Generating Files..."
 CD src
 python "parse.py"
 CD ..
