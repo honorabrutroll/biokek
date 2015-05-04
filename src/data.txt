@@ -1,10 +1,57 @@
+Start
+The authors of this project are Nico Murolo, Johnny Chen, and Edward Yang. The bulk of this project was written in Racket and Python, with some shellscript/batch for the build system. The questions are given in this format: - Continue
+
 Topic
-Question - Correct answer - possible answer 2 - possible answer 3 - possible answer 4
+Question? - Random right answer - Wrong answer - Another Wrong answer - Terribly close but still wrong answer.
+
+Molecules
+Sodium and Chlorine form a type of bond known as an... (hint: selfish) - Ionic Bond - Covalent Bond - Metallic Bond - Hydrogen Bond
+
+This type of bond allows the bonded atoms to share electron(s). - Covalent Bond - Ionic Bond - Metallic Bond - Hydrogen Bond
+
+This allows ice to expand rather than contract when frozen. - Hydrogen Bonding - Diffusion - Presence of minor impurities in water - Properties of supercooled matter
+
+The organic molecule that is known to come mainly from cows. - Methane - Hydrogen Sulfide - Arsenic - CO2
+
+This geometric shape allows organic molecules such as Benzene to ramin extremely stable. - Hexagonal - Octoganol - Triangular - Pentagonal
+
+A gas commonly used for lighter or torch fuel that has a chemical formula of C4H10 - Butane - Carbon Dioxide - C4 - Natural Gas
+
+The 3 Phosphate groups attached to an adenosine allow this molecule to be an effective energy carrier - ATP - DNA - ATP - AMP
+
+The further removal of a Phosphate Group from ADP forces it to become a very unstable molecule, - AMP - RNA - DNA - ATP
+
+The presence of at least one Hydroxyl Group changes a pure Hydrocarbon to a... - Carbohydrate - Nutrient - Revitalized Hydrocarbon - G-LOC'd hydrocarbon
+
+Fructose, Sucrose, Galactose,and Glucose all make up a group known as... - Disaccharides - Monosaccharides - Saccharides - Alcohols
+
+This group of elements is essential for all life as we know it. - SPONCHNaK - SPONCHNK - SPUTiNIK - AmErICa - FeLiNeS - FAmOUSKINGe
+
+This liquid Organic group's properties allow it to dissolve some things that water cannot. An example is Glycerol. - Alcohols - Hydroxyls - Fruit juices - Spongial Fluids
+
+This macromolecular group includes Steroids and Fatty Acids, and allows for basic cell membranes. - Lipids - Gases - Plastics - Proteins
+
+These are the monomers of proteins. - Amino Acids - Saccharides - Lipids - Carbohydrates
+
+Nutrients can be nonessential. - Yes - No
+
+Cells (General + DNA)
+What is the theory which describes cytology? - Cell Theory - String Theory - Membraneal Seperation Theory - Bascterial Theory
+
+DNA is formed through the process of ____. - DNA Synthesis - mRNA Translation - DNA Rebonding - Transcription
+
+DNA, mRNA, and tRNA go through or are formed by translation and transcription, which essentially trnaslates and copies blocks of information called codons until a stopc codon is found. - Yes - No
+
+These two sugars help create the basic structure of DNA and RNA. - Deoxyribose and Ribose - Sucrose and Fructose - Sucrose and Galactose - Fructose and Galactose\
+
+Reproduction is one of the many processes which differentiate... - Prokaryotes and Eukaryotes - Cells and Organelles - DNA and RNA - mRNA and tRNA
+
+
 
 Cell Processes
 Chloroplast is a structure containing chlorophyll (a special pigment). What makes chlorophyll so special? - Chlorophyll can absorb light to transform it into chemical energy. - Chlorophyll is the center of cell synthesis in a plant - Chlorophyll can change color depending on the season - Chlorophyll fulfills all the roles of that cells would have otherwise done.
 
-Which of these is the name of the entire process in which plants transform energy? - Photosynthesis - Light Absorption - Calvin Cycle - Kreb Cycle
+Which of these is the name of the entire process in which plants transform light energy (movement of photons) to chemical energy (energy stored in atomic bonds)? - Photosynthesis - Light Absorption - Calvin Cycle - Kreb Cycle
 
 In which of these processes is the ETC directly involved? - Light Reaction - Dark Reaction - Kreb Cycle - Glycolysis
 
@@ -18,7 +65,7 @@ In the gas exchange, which two gases are typically involved? - Oxygen and CO2 - 
 
 Which molecule is primarily used in cellular energy transfer? - ATP - ADP - AMP - Phosphates in general
 
-Which type of molecule is NOT used in protein synthesis? - Fatty Acids - Amino Acids - DNA -RNA
+Which type of molecule is NOT used in protein synthesis? - Fatty Acids - Amino Acids - DNA - RNA
 
 Glucose is broken down in... - the Krebs Cycle - Glucose Desynthesis - Dehydrolysis - Hydrolysis
 
@@ -40,7 +87,7 @@ What is the nucleus protected by? - The nuclear membrane - The cell wall - The n
 
 The rough endoplasmic reticulum contains ribosomes, which are part of creating which macromolecule? - Proteins - Lipids - Carbohydrates - DNA
 
-On the other hand, the smooth endoplasmic reticulum creates which macromolecule? - Lipids - Proteins - Carbohydrates- DNA
+On the other hand, the smooth endoplasmic reticulum creates which macromolecule? - Lipids - Proteins - Carbohydrates - DNA
 
 The job of a vacuole in a cell is to... - store molecules - create vitamins - fill up space - release molecules
 
@@ -52,4 +99,47 @@ Which organelle in a cell creates the most ATP? - The mitochondria - The smooth 
 
 What protects a plant cell? - A combination of the cell membrane and cell wall - The cell wall - The cell membrane - None of the above
 
-An enzyme is a protein which makes certain processes happen faster. - Cool - Meh - So? - OK? (Iunno, if you can think of something change it.)
+An enzyme is a protein which makes certain processes happen faster, which is also the job of a chemical catalyst, something that helps reactions happen. - Cool 
+
+Scientific method
+Scientific inquiry is the wanting of knowledge
+
+In an experiment, the ___ variable is the variable that does not change, and the ___ variable is the one that changes the ___ variable - standardized, independent, dependent - independent, dependent, standardized - standardized, dependent, independent - dependent, independent, standardized
+
+Organisms
+Organisms that can sustain their own energy are called... - autotrophs - heterotrophs
+
+An organism, by definition, is... - biotic - abiotic
+
+Which one of these is a part of the qualifications of being a living being? - Responding to stimuli - Being able to move around on your own - being able to breathe air - having feelings
+
+Microscope
+_____ Is the main difference between a High Power Objective Lens and a Low Power Objective Lens, or a Simple Microscope and Compound Microscope. - Power of Magnification - Slide Count - Eyepiece Width - Stage Clips
+
+Some basic parts of this are the Nose Piece, Eye Piece, Stage, Stage Clips, and Lenses. - Microscope - Extruder - Telescope - Scanning Electron Microscope
+
+The difference between a Dry Mount and a Wet Mount is... - The presence of water on the slide. - The surrounding air humidity. - Wet or Dry Slide Samples - Wet or Dry Mcroscope Lenses
+
+This type of slide has a slight dip in the middle over which a cover slide can be placed. - Depression Slide - Rcok Slide - Under Slide - Holding Slide
+
+Energy + Broad reactions
+What type of bonds are broken in combustion? - Carbon/Hydrogen - Carbon/Oxygen - Carbon/Nitrogen - Carbon/Carbon
+
+Kinetic energy is the energy of movement. Which of the following is a type of kinetic energy? - Heat energy - Potential energy - Chemical energy - Gravitational energy
+
+Heat energy is the movement of what? - All of the above - Atoms - Photons - Molecules
+
+Which type of energy is not potential energy? - Light energy - Chemical energy - Mechanical energy - Nuclear energy
+
+What is the difference between product and yield? - The product is what is produced, the yield is the amount produced. - The product is how much is produced, the yield is what is produced - The two are synonyms and interchangeable 
+
+What is the correct name for the nonproduct parts of a reaction? - Reactants - Chemicals - Ingredients - Catalysts
+
+A chemical equation has to be balanced (same atoms on both sides, reactants and products.) - False - True
+
+A chemical equation has to be balanced to work - True - False
+
+
+
+
+
