@@ -5,5 +5,3 @@ release/*
 *.1
 src/*.bak
 src/*.1
-src/jeopardyp1.rkt
-src/jeopardyp2.rkt

@@ -144,16 +144,30 @@ def basefile(player,ip):
                             0
                             (+ (model-q m) 1)))))))
 
-(define (remove-point p t q m)
+(define (replace item newitem lst)
+  (local [(define (repl x)
+            (cond [(equal? item x) newitem]
+                  [else x]))]
+    (map repl lst)))
+
+(define (remansw ans q top info)
+  (replace top (make-topic (topic-paragraph top) 
+                           (replace q (make-question (question-q q) 
+                                                     (remove ans (question-answers q))
+                                                     (question-correct q)) 
+                                    (topic-questions top))) 
+           info))
+
+(define (remove-point p t q m a)
   (if (equal? p 1)
       (send (make-model p
                         (make-posn (- (posn-x (model-scores m)) 5) (posn-y (model-scores m)))
-                        (model-info m)
+                        (remansw a (current-question m) (current-topic m) (model-info m))
                         (model-t m)
                         (model-q m)))
       (send (make-model p
                         (make-posn (posn-x (model-scores m)) (- (posn-y (model-scores m)) 5))
-                        (model-info m)
+                        (remansw a (current-question m) (current-topic m) (model-info m))
                         (model-t m)
                         (model-q m)))))
 
@@ -164,8 +178,8 @@ def basefile(player,ip):
           (award-point 1 (current-topic m) (current-question m) m)
           (award-point 2 (current-topic m) (current-question m) m))
       (if (equal? p 1)
-          (remove-point 1 (current-topic m) (current-question m) m)
-          (remove-point 2 (current-topic m) (current-question m) m))))
+          (remove-point 1 (current-topic m) (current-question m) m a)
+          (remove-point 2 (current-topic m) (current-question m) m a))))
 
 ;answer a, question q, int p, model m -> model
 (define (check-answer a q p m)
